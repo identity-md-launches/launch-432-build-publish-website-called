@@ -1,0 +1,21 @@
+{
+  "name": "imderivatives",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build && node scripts/export-docs.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "check:data": "node scripts/check-data.mjs"
+  },
+  "dependencies": { "react": "19.1.1", "react-dom": "19.1.1" },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.9",
+    "@vitejs/plugin-react": "5.0.2",
+    "typescript": "5.9.2",
+    "vite": "7.1.5"
+  }
+}

@@ -1,0 +1,750 @@
+[
+  {
+    "id": "swarm-pepe",
+    "name": "SWARM PEPE",
+    "subtitle": "An on-chain community collectible",
+    "category": [
+      "NFT"
+    ],
+    "description": "An Ethereum NFT collection whose announcement offers access to IMD holders and people who paid the swarm for work.",
+    "descriptionSourceIds": [
+      "pepe-item",
+      "pepe-memo"
+    ],
+    "relationshipToIMD": {
+      "text": "The announcement describes a holder snapshot and eligibility for swarm customers. Referencing those groups does not establish that Identity MD created or endorsed the collection.",
+      "kind": "PROJECT CLAIM",
+      "sourceIds": [
+        "pepe-memo"
+      ]
+    },
+    "affiliationStatus": "INDEPENDENT — VERIFIED",
+    "affiliationEvidence": {
+      "text": "No explicit official IMD endorsement was found in the IMD homepage and documentation reviewed. Absence is not evidence of fraud. This listing does not establish an official relationship.",
+      "kind": "UNKNOWN",
+      "sourceIds": [
+        "imd-site",
+        "imd-docs"
+      ]
+    },
+    "chain": "Ethereum",
+    "chainNote": "Collection and address corroborated by OpenSea. Contract source verification was not established.",
+    "contracts": [
+      {
+        "label": "Collection contract",
+        "address": "0x999ce0ce8c5f7661e0c74a568ffe27ceb9177bdb",
+        "chain": "Ethereum",
+        "explorer": "https://etherscan.io/address/0x999ce0ce8c5f7661e0c74a568ffe27ceb9177bdb",
+        "verification": "Address matches the Ethereum item URL and announcement. Explorer source-code verification could not be checked.",
+        "sourceIds": [
+          "pepe-item"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "label": "OpenSea collection",
+        "url": "https://opensea.io/collection/swarm-pepe"
+      }
+    ],
+    "riskFlags": [
+      {
+        "label": "UNVERIFIED CONTRACT",
+        "explanation": "The address is corroborated; matching published Solidity to deployed bytecode was not possible during this review.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "pepe-explorer"
+        ]
+      },
+      {
+        "label": "UNKNOWN TEAM",
+        "explanation": "An announcing wallet is known, but its real-world identity and relationship to the deployer are unverified.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "pepe-memo"
+        ]
+      },
+      {
+        "label": "EXTERNAL KEEPER",
+        "explanation": "The announcement says a bot reveals minted artwork. Its operation has not been independently checked.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "pepe-memo"
+        ]
+      }
+    ],
+    "overview": [
+      {
+        "text": "OpenSea identifies Swarm Pepe #477 as an ERC-721 NFT on Ethereum at the supplied collection address.",
+        "kind": "VERIFIED FACT",
+        "sourceIds": [
+          "pepe-item"
+        ]
+      }
+    ],
+    "howItWorks": [
+      {
+        "text": "The announcing wallet describes fully on-chain generated artwork, a free allowlisted claim, up to three per wallet and a bot-assisted reveal. These mechanism details are project claims, not a code audit.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "pepe-memo"
+        ]
+      }
+    ],
+    "securityNotes": [
+      {
+        "text": "Marketplace identification verifies the collection/address association only. Contract permissions, reveal behavior and audit coverage remain unverified.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "pepe-explorer"
+        ]
+      }
+    ],
+    "provenance": {
+      "text": "Memoscan records the announcement from 0x90738abe9b04622dc0b3d015a3964cc7d1fd1859 on 25 September 2026. The sender claims involvement; creator/deployer equivalence has not been confirmed.",
+      "kind": "THIRD-PARTY CLAIM",
+      "sourceIds": [
+        "pepe-memo"
+      ]
+    },
+    "sources": [
+      {
+        "id": "pepe-item",
+        "title": "OpenSea · Swarm Pepe #477",
+        "url": "https://opensea.io/item/ethereum/0x999ce0ce8c5f7661e0c74a568ffe27ceb9177bdb/477",
+        "type": "Marketplace record",
+        "note": "Identifies the chain, ERC-721 collection and exact address."
+      },
+      {
+        "id": "pepe-memo",
+        "title": "Memoscan · Swarm Pepe announcement",
+        "url": "https://memoscan.io/memo/0x5a579214f4df9d8ec756e98717e86bb3dbc4ed6a4e4fd70e13599ba6d53ffbb2",
+        "type": "Indexed on-chain message",
+        "note": "Claims made by the sender. Transaction input was not independently retrieved from an RPC."
+      },
+      {
+        "id": "pepe-explorer",
+        "title": "Etherscan · collection address",
+        "url": "https://etherscan.io/address/0x999ce0ce8c5f7661e0c74a568ffe27ceb9177bdb#code",
+        "type": "Explorer · access limited",
+        "note": "HTTP 403 in direct and browser access; no source verification or audit inferred."
+      },
+      {
+        "id": "imd-site",
+        "title": "Identity MD website",
+        "url": "https://imd.fun/",
+        "type": "Primary IMD source",
+        "note": "Homepage reviewed; no explicit endorsement of these four projects found."
+      },
+      {
+        "id": "imd-docs",
+        "title": "Identity MD documentation",
+        "url": "https://imd.fun/docs/",
+        "type": "Primary IMD source",
+        "note": "Documentation searched for the four names. No explicit official relationship found. This is a bounded review, not proof that no statement exists elsewhere."
+      }
+    ],
+    "lastReviewed": "2026-09-28"
+  },
+  {
+    "id": "tokenworks",
+    "name": "IMD STRATEGY",
+    "subtitle": "TokenStrategy / TokenWorks",
+    "category": [
+      "Token",
+      "Strategy"
+    ],
+    "description": "A TokenWorks strategy designed to acquire Identity MD NFTs with trading fees, resell them and buy back its own token.",
+    "descriptionSourceIds": [
+      "tw-nft",
+      "tw-page"
+    ],
+    "relationshipToIMD": {
+      "text": "Identity MD NFTs are the strategy’s target assets. This is a TokenWorks mechanism; its strategy token is distinct from Identity MD’s ecosystem token.",
+      "kind": "PROJECT CLAIM",
+      "sourceIds": [
+        "tw-page",
+        "tw-nft"
+      ]
+    },
+    "affiliationStatus": "INDEPENDENT — SUPPORTS IMD",
+    "affiliationEvidence": {
+      "text": "No explicit official IMD endorsement was found in the IMD homepage and documentation reviewed. Absence is not evidence of fraud. This listing does not establish an official relationship.",
+      "kind": "UNKNOWN",
+      "sourceIds": [
+        "imd-site",
+        "imd-docs"
+      ]
+    },
+    "chain": "Ethereum",
+    "chainNote": "Ethereum is identified by the strategy page. Deployment code and current parameters were not independently verified.",
+    "contracts": [
+      {
+        "label": "IMDSTR strategy token",
+        "address": "0x80271ce20184e38f4afe90d4ca134304d197aca2",
+        "chain": "Ethereum",
+        "explorer": "https://etherscan.io/address/0x80271ce20184e38f4afe90d4ca134304d197aca2",
+        "verification": "Address supplied in the TokenStrategy listing URL. Etherscan and RPC verification were blocked.",
+        "sourceIds": [
+          "tw-page"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "label": "TokenStrategy project",
+        "url": "https://www.tokenstrategy.com/strategies/0x80271ce20184e38f4afe90d4ca134304d197aca2"
+      }
+    ],
+    "riskFlags": [
+      {
+        "label": "EXTERNAL KEEPER",
+        "explanation": "Solvers/bots trigger purchases and buybacks. Execution depends on available inventory and economic incentives.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "tw-about"
+        ]
+      },
+      {
+        "label": "UNVERIFIED CONTRACT",
+        "explanation": "The specific deployed code, owner permissions and parameter settings could not be verified.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "tw-explorer"
+        ]
+      }
+    ],
+    "overview": [
+      {
+        "text": "The project page identifies IMDStrategy ($IMDSTR), Ethereum and Identity MD as the NFT target. TokenStrategy is branded as powered by TokenWorks.",
+        "kind": "VERIFIED FACT",
+        "sourceIds": [
+          "tw-page"
+        ]
+      }
+    ],
+    "howItWorks": [
+      {
+        "text": "NFT strategy documentation describes a resting 10% trade fee: 8% funds NFT purchases, 1% funds PNKSTR burns and 1% is allocated to collection royalties. NFTs are relisted above cost; sale proceeds fund strategy-token buybacks and burns. This is documented platform behavior, not a verified snapshot of this deployment.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "tw-nft"
+        ]
+      },
+      {
+        "text": "Sources disagree: the listing mentions sale profits distributed to protocol/liquidity providers, while the NFT docs and About page describe all sale proceeds buying and burning strategy tokens. The About page also describes different routing for unclaimed royalties. Exact deployed behavior is unresolved.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "tw-page",
+          "tw-nft",
+          "tw-about"
+        ]
+      }
+    ],
+    "securityNotes": [
+      {
+        "text": "The FAQ claims audited contracts, but no report tied to this address/version was verified. Audit status is therefore unknown, rather than labeled unaudited.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "tw-faq"
+        ]
+      },
+      {
+        "text": "The documented cycle depends on trades funding purchases and buyers accepting NFT listings. It does not guarantee sales, profit or benefits for IMD holders.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "tw-nft"
+        ]
+      },
+      {
+        "text": "The NFT docs restrict launches to collection owners, while the FAQ uses broader launch language. Neither statement proves this creator is IMD or establishes endorsement.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "tw-nft",
+          "tw-faq"
+        ]
+      }
+    ],
+    "provenance": {
+      "text": "TokenWorks is the platform provider. The exact strategy deployer and its identity were not independently verified; platform branding does not identify the individual launcher.",
+      "kind": "UNKNOWN",
+      "sourceIds": [
+        "tw-page",
+        "tw-explorer"
+      ]
+    },
+    "sources": [
+      {
+        "id": "tw-page",
+        "title": "TokenStrategy · IMDStrategy",
+        "url": "https://www.tokenstrategy.com/strategies/0x80271ce20184e38f4afe90d4ca134304d197aca2",
+        "type": "Project listing",
+        "note": "Identifies the target collection, chain and token. Mechanism copy conflicts with the documentation on sale proceeds."
+      },
+      {
+        "id": "tw-nft",
+        "title": "TokenStrategy · NFT strategies",
+        "url": "https://docs.tokenstrategy.com/strategy-types/nft-strategies",
+        "type": "Project documentation",
+        "note": "Describes acquisition, resale, fees and buyback/burn cycle. Deployment-specific settings not confirmed."
+      },
+      {
+        "id": "tw-about",
+        "title": "TokenStrategy · About",
+        "url": "https://www.tokenstrategy.com/about",
+        "type": "Project documentation",
+        "note": "TokenWorks attribution, solver execution, royalty routing and third-party rights-holder non-affiliation statement."
+      },
+      {
+        "id": "tw-faq",
+        "title": "TokenStrategy · FAQ",
+        "url": "https://docs.tokenstrategy.com/faq",
+        "type": "Project documentation",
+        "note": "General audit claim; no deployment-specific report verified."
+      },
+      {
+        "id": "tw-explorer",
+        "title": "Etherscan · IMDSTR",
+        "url": "https://etherscan.io/address/0x80271ce20184e38f4afe90d4ca134304d197aca2#code",
+        "type": "Explorer · access limited",
+        "note": "HTTP 403; bytecode, creator and privileges not independently checked."
+      },
+      {
+        "id": "imd-site",
+        "title": "Identity MD website",
+        "url": "https://imd.fun/",
+        "type": "Primary IMD source",
+        "note": "Homepage reviewed; no explicit endorsement of these four projects found."
+      },
+      {
+        "id": "imd-docs",
+        "title": "Identity MD documentation",
+        "url": "https://imd.fun/docs/",
+        "type": "Primary IMD source",
+        "note": "Documentation searched for the four names. No explicit official relationship found. This is a bounded review, not proof that no statement exists elsewhere."
+      }
+    ],
+    "lastReviewed": "2026-09-28"
+  },
+  {
+    "id": "project-hive",
+    "name": "PROJECT HIVE",
+    "subtitle": "An experiment in agent ownership",
+    "category": [
+      "App",
+      "Token"
+    ],
+    "description": "Claims to use trading fees to buy and run Identity MD agent seats, then distribute earned IMD to stakers. Key claims remain unverified.",
+    "descriptionSourceIds": [
+      "hive-home"
+    ],
+    "relationshipToIMD": {
+      "text": "Hive proposes buying and operating Identity MD seats. Its own footer says it is not affiliated with identity.md or the IMD team. Seat custody and earnings were not independently confirmed.",
+      "kind": "PROJECT CLAIM",
+      "sourceIds": [
+        "hive-home",
+        "hive-config"
+      ]
+    },
+    "affiliationStatus": "UNVERIFIED",
+    "affiliationEvidence": {
+      "text": "No explicit official IMD endorsement was found in the IMD homepage and documentation reviewed. Absence is not evidence of fraud. This listing does not establish an official relationship.",
+      "kind": "UNKNOWN",
+      "sourceIds": [
+        "imd-site",
+        "imd-docs"
+      ]
+    },
+    "chain": "Robinhood / Ethereum",
+    "chainNote": "Project-configured: token on Robinhood Chain (4663), seats and IMD earnings on Ethereum. Not independently confirmed on-chain.",
+    "contracts": [
+      {
+        "label": "Project-reported HIVE token",
+        "address": "0xCdaE63D95D6dd4f89f6e508c77bD4388b4e5C8Ab",
+        "chain": "Robinhood Chain",
+        "explorer": "https://robinhoodchain.blockscout.com/address/0xCdaE63D95D6dd4f89f6e508c77bD4388b4e5C8Ab",
+        "verification": "Read from project configuration; deployment and source code unverified.",
+        "sourceIds": [
+          "hive-config"
+        ]
+      },
+      {
+        "label": "Project-reported staking",
+        "address": "0x4a56860781f90Cd4d9D9883b33c2B9bE94E88695",
+        "chain": "Robinhood Chain",
+        "explorer": "https://robinhoodchain.blockscout.com/address/0x4a56860781f90Cd4d9D9883b33c2B9bE94E88695",
+        "verification": "Read from configuration; privileges and functionality unverified.",
+        "sourceIds": [
+          "hive-config"
+        ]
+      },
+      {
+        "label": "Project-reported splitter",
+        "address": "0xCFd95537953236E7885f450F001b00960F496bC2",
+        "chain": "Robinhood Chain",
+        "explorer": "https://robinhoodchain.blockscout.com/address/0xCFd95537953236E7885f450F001b00960F496bC2",
+        "verification": "Read from configuration; deployment and ownership unverified.",
+        "sourceIds": [
+          "hive-config"
+        ]
+      },
+      {
+        "label": "Reported seat keeper / custody address",
+        "address": "0x84b31CB3D205EfD2d20F29eA7ccaB1bc34326DdB",
+        "chain": "Ethereum",
+        "explorer": "https://etherscan.io/address/0x84b31CB3D205EfD2d20F29eA7ccaB1bc34326DdB",
+        "verification": "Configuration describes seats held by the keeper. Contract vs EOA and actual custody unverified.",
+        "sourceIds": [
+          "hive-config"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "label": "Hive dashboard",
+        "url": "https://projecthive.fun/dashboard.html"
+      }
+    ],
+    "riskFlags": [
+      {
+        "label": "AUTOMATED SECURITY WARNING",
+        "explanation": "Gridinsoft’s automated report flags the domain. Its label is a scanner judgment, not independently proven misconduct.",
+        "kind": "AUTOMATED WARNING",
+        "sourceIds": [
+          "hive-scanner"
+        ]
+      },
+      {
+        "label": "UNVERIFIED CONTRACT",
+        "explanation": "Project-published addresses exist in site configuration, but deployed behavior and admin powers were not confirmed.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "hive-config"
+        ]
+      },
+      {
+        "label": "UNKNOWN TEAM",
+        "explanation": "No independently verified creator identity was established.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "hive-home"
+        ]
+      },
+      {
+        "label": "EXTERNAL KEEPER",
+        "explanation": "The configuration identifies a keeper custody address, making the operating/custody trust model important to verify.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "hive-config"
+        ]
+      }
+    ],
+    "overview": [
+      {
+        "text": "The dashboard loaded in a browser and exposed a wallet-address lookup plus a separate staking link. It displayed one seat and several unavailable values. Those displayed numbers are not on-chain verification.",
+        "kind": "VERIFIED FACT",
+        "sourceIds": [
+          "hive-dashboard"
+        ]
+      }
+    ],
+    "howItWorks": [
+      {
+        "text": "The website describes fees funding seat purchases, agents earning IMD, staking distributions and compounding. No end-to-end purchase, registration, earnings or payout transaction was independently verified.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "hive-home"
+        ]
+      }
+    ],
+    "securityNotes": [
+      {
+        "text": "A material discrepancy needs resolution: marketing says the bot cannot withdraw seats, while config.js says seats live on the keeper, with no separate vault. This review cannot establish enforceable custody protections.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "hive-home",
+          "hive-config"
+        ]
+      },
+      {
+        "text": "The config provides a seatsOwned fallback. A displayed seat count may therefore survive a failed RPC read; it is not proof of current holdings.",
+        "kind": "VERIFIED FACT",
+        "sourceIds": [
+          "hive-config"
+        ]
+      },
+      {
+        "text": "Gridinsoft reports recent domain registration and low reputation. No independent domain-age check or malicious transaction analysis was completed. Automated warnings do not prove fraud, and this review does not classify Hive as fraudulent.",
+        "kind": "AUTOMATED WARNING",
+        "sourceIds": [
+          "hive-scanner"
+        ]
+      }
+    ],
+    "provenance": {
+      "text": "The homepage links @HIVE_imd. The operator, deployer and any IMD relationship have not been independently authenticated.",
+      "kind": "UNKNOWN",
+      "sourceIds": [
+        "hive-home"
+      ]
+    },
+    "sources": [
+      {
+        "id": "hive-home",
+        "title": "Hive · project homepage",
+        "url": "https://projecthive.fun/",
+        "type": "Project website",
+        "note": "Mechanism claims and explicit non-affiliation footer read directly."
+      },
+      {
+        "id": "hive-dashboard",
+        "title": "Hive · dashboard",
+        "url": "https://projecthive.fun/dashboard.html",
+        "type": "Observed project interface",
+        "note": "Browser loaded on 28 September 2026. No wallet connected; no funds moved."
+      },
+      {
+        "id": "hive-config",
+        "title": "Hive · public configuration",
+        "url": "https://projecthive.fun/config.js",
+        "type": "Project-published configuration",
+        "note": "Addresses, chain ID, keeper custody comment and fallback seat count. Not proof of deployment."
+      },
+      {
+        "id": "hive-scanner",
+        "title": "Gridinsoft · automated domain report",
+        "url": "https://es.gridinsoft.com/online-virus-scanner/url/projecthive-fun",
+        "type": "Automated scanner",
+        "note": "Report dated 28 September 2026. Treat classification and domain age as automated/third-party signals, not proven fraud."
+      },
+      {
+        "id": "imd-site",
+        "title": "Identity MD website",
+        "url": "https://imd.fun/",
+        "type": "Primary IMD source",
+        "note": "Homepage reviewed; no explicit endorsement of these four projects found."
+      },
+      {
+        "id": "imd-docs",
+        "title": "Identity MD documentation",
+        "url": "https://imd.fun/docs/",
+        "type": "Primary IMD source",
+        "note": "Documentation searched for the four names. No explicit official relationship found. This is a bounded review, not proof that no statement exists elsewhere."
+      }
+    ],
+    "lastReviewed": "2026-09-28"
+  },
+  {
+    "id": "nosh",
+    "name": "IMD STRATEGY",
+    "subtitle": "Nosh / IMDSTRTGY",
+    "category": [
+      "Token",
+      "Strategy"
+    ],
+    "description": "A Nosh token whose creator fees are routed toward Identity MD NFT purchases and holder raffles, with external keeper involvement.",
+    "descriptionSourceIds": [
+      "nosh-page",
+      "nosh-docs"
+    ],
+    "relationshipToIMD": {
+      "text": "The coin page targets Identity MD and reports an airdrop policy. The registry marks this collection external: buying and delivering its Ethereum NFTs involves an operator outside the token’s chain.",
+      "kind": "PROJECT CLAIM",
+      "sourceIds": [
+        "nosh-page",
+        "nosh-registry",
+        "nosh-docs"
+      ]
+    },
+    "affiliationStatus": "INDEPENDENT — SUPPORTS IMD",
+    "affiliationEvidence": {
+      "text": "No explicit official IMD endorsement was found in the IMD homepage and documentation reviewed. Absence is not evidence of fraud. This listing does not establish an official relationship.",
+      "kind": "UNKNOWN",
+      "sourceIds": [
+        "imd-site",
+        "imd-docs"
+      ]
+    },
+    "chain": "Robinhood Chain",
+    "chainNote": "Token on Robinhood Chain (4663), according to Nosh. Target NFTs are delivered on Ethereum; the registry identifier is not treated as their Ethereum contract.",
+    "contracts": [
+      {
+        "label": "IMDSTRTGY token",
+        "address": "0xE749C8Bf545DA0db1aA6664c63c072c96f25acA1",
+        "chain": "Robinhood Chain",
+        "explorer": "https://robinhoodchain.blockscout.com/address/0xE749C8Bf545DA0db1aA6664c63c072c96f25acA1",
+        "verification": "Token address and explorer link shown on the coin page. Source-code verification unconfirmed.",
+        "sourceIds": [
+          "nosh-page"
+        ]
+      },
+      {
+        "label": "Identity MD external vault",
+        "address": "0x1569887005694c0678954f5f529ddf66ba98a0b6",
+        "chain": "Robinhood Chain",
+        "explorer": "https://robinhoodchain.blockscout.com/address/0x1569887005694c0678954f5f529ddf66ba98a0b6",
+        "verification": "Coin page and registry identify this vault; external purchase execution is a trust assumption.",
+        "sourceIds": [
+          "nosh-page",
+          "nosh-registry"
+        ]
+      },
+      {
+        "label": "Nosh collection registry",
+        "address": "0x83B35632Ef70ab85DD5B01180FdD7856b68E4B0f",
+        "chain": "Robinhood Chain",
+        "explorer": "https://robinhoodchain.blockscout.com/address/0x83B35632Ef70ab85DD5B01180FdD7856b68E4B0f",
+        "verification": "Published in Nosh documentation; deployed privileges were not independently audited.",
+        "sourceIds": [
+          "nosh-docs"
+        ]
+      },
+      {
+        "label": "Nosh raffle distributor",
+        "address": "0x437bF3D31bbB9316fca2f6d7C761D7b9f0F3f431",
+        "chain": "Robinhood Chain",
+        "explorer": "https://robinhoodchain.blockscout.com/address/0x437bF3D31bbB9316fca2f6d7C761D7b9f0F3f431",
+        "verification": "Published protocol address, not the strategy token itself.",
+        "sourceIds": [
+          "nosh-docs"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "label": "Nosh coin page",
+        "url": "https://www.usenosh.app/coins/0xE749C8Bf545DA0db1aA6664c63c072c96f25acA1"
+      }
+    ],
+    "riskFlags": [
+      {
+        "label": "UNAUDITED",
+        "explanation": "Nosh’s footer states its contracts are unaudited until stated otherwise; no superseding audit report was found.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "nosh-docs"
+        ]
+      },
+      {
+        "label": "EXTERNAL KEEPER",
+        "explanation": "The collection is external. Purchases/delivery and holder snapshots rely on a keeper.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "nosh-docs",
+          "nosh-registry"
+        ]
+      },
+      {
+        "label": "ADMIN CONTROL",
+        "explanation": "Docs describe owner powers to pause sweeps and rotate keepers; external vault withdrawals are time-locked.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "nosh-docs"
+        ]
+      },
+      {
+        "label": "UNVERIFIED CONTRACT",
+        "explanation": "Listed addresses were read from Nosh; explorer/RPC access did not establish source-code verification.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "nosh-page"
+        ]
+      }
+    ],
+    "overview": [
+      {
+        "text": "The rendered coin page labels this token Identity MD Strategy (IMDSTRTGY), with Identity MD as its target and Airdrop as its NFT policy.",
+        "kind": "VERIFIED FACT",
+        "sourceIds": [
+          "nosh-page"
+        ]
+      }
+    ],
+    "howItWorks": [
+      {
+        "text": "Nosh documents an 80/20 split of router receipts between collection vault and protocol treasury. Purchased NFTs follow the coin’s policy. For external collections, the keeper performs purchases off-chain and records receipts.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "nosh-docs"
+        ]
+      },
+      {
+        "text": "The coin page shows Ethereum delivery links for Identity MD NFTs #1171 and #414. These are project-reported deliveries; transaction execution was not independently checked.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "nosh-page",
+          "nosh-delivery"
+        ]
+      }
+    ],
+    "securityNotes": [
+      {
+        "text": "Docs acknowledge that the keeper supplies holder snapshots and on-chain logic does not reject a bad root. External vaults permit announced, time-locked withdrawals. These exceptions matter more here than the generic claim that vaults cannot withdraw.",
+        "kind": "PROJECT CLAIM",
+        "sourceIds": [
+          "nosh-docs"
+        ]
+      },
+      {
+        "text": "Token liquidity, fee generation, keeper availability, snapshot honesty and cross-chain custody all affect outcomes. A raffle is not a guaranteed reward or a claim on an IMD agent.",
+        "kind": "UNKNOWN",
+        "sourceIds": [
+          "nosh-docs",
+          "nosh-page"
+        ]
+      }
+    ],
+    "provenance": {
+      "text": "Nosh’s coin page reports creator 0xebC1188F54B8591eb3322b273391a2f4a714dBd4. The wallet’s real-world identity and deployed ownership were not independently authenticated. Nosh is separate from Identity MD.",
+      "kind": "PROJECT CLAIM",
+      "sourceIds": [
+        "nosh-page"
+      ]
+    },
+    "sources": [
+      {
+        "id": "nosh-page",
+        "title": "Nosh · Identity MD Strategy",
+        "url": "https://www.usenosh.app/coins/0xE749C8Bf545DA0db1aA6664c63c072c96f25acA1",
+        "type": "Rendered project listing",
+        "note": "Browser-rendered target, airdrop policy, creator and addresses were read. These are attributed project records."
+      },
+      {
+        "id": "nosh-docs",
+        "title": "Nosh · how it works",
+        "url": "https://www.usenosh.app/docs",
+        "type": "Project documentation",
+        "note": "Fee split, external vault exception, snapshot trust, admin controls and unaudited notice."
+      },
+      {
+        "id": "nosh-registry",
+        "title": "Nosh · collection registry API",
+        "url": "https://www.usenosh.app/api/registry",
+        "type": "Project API",
+        "note": "Identity MD entry has external_: true and the listed vault. API claims were not independently replayed on-chain."
+      },
+      {
+        "id": "nosh-delivery",
+        "title": "Etherscan · project-linked #1171 delivery",
+        "url": "https://etherscan.io/tx/0xe15cee0d9cea302224edd75c9b8792e4b5c29aeb0eaf131c6bfd6ecca57605ee",
+        "type": "Project-linked transaction · unverified",
+        "note": "Included for independent follow-up; this review did not validate the transaction receipt."
+      },
+      {
+        "id": "imd-site",
+        "title": "Identity MD website",
+        "url": "https://imd.fun/",
+        "type": "Primary IMD source",
+        "note": "Homepage reviewed; no explicit endorsement of these four projects found."
+      },
+      {
+        "id": "imd-docs",
+        "title": "Identity MD documentation",
+        "url": "https://imd.fun/docs/",
+        "type": "Primary IMD source",
+        "note": "Documentation searched for the four names. No explicit official relationship found. This is a bounded review, not proof that no statement exists elsewhere."
+      }
+    ],
+    "lastReviewed": "2026-09-28"
+  }
+]
