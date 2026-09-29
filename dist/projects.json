@@ -6,6 +6,7 @@
     "category": [
       "NFT"
     ],
+    "color": "#cdb4f5",
     "description": "An Ethereum NFT collection whose announcement offers access to IMD holders and people who paid the swarm for work.",
     "descriptionSourceIds": [
       "pepe-item",
@@ -130,6 +131,13 @@
         "note": "HTTP 403 in direct and browser access; no source verification or audit inferred."
       },
       {
+        "id": "market-opensea",
+        "title": "OpenSea · Swarm Pepe collection statistics API",
+        "url": "https://api.opensea.io/api/v2/collections/swarm-pepe/stats",
+        "type": "Marketplace statistics · third-party",
+        "note": "Floor price and marketplace sales volume as reported by OpenSea for the collection whose record lists this contract. NFT marketplace figures, not token market data."
+      },
+      {
         "id": "imd-site",
         "title": "Identity MD website",
         "url": "https://imd.fun/",
@@ -144,7 +152,19 @@
         "note": "Documentation searched for the four names. No explicit official relationship found. This is a bounded review, not proof that no statement exists elsewhere."
       }
     ],
-    "lastReviewed": "2026-09-28"
+    "lastReviewed": "2026-09-29",
+    "market": {
+      "kind": "nft",
+      "chain": "Ethereum",
+      "chainId": 1,
+      "contractAddress": "0x999ce0ce8c5f7661e0c74a568ffe27ceb9177bdb",
+      "identifiedBy": "OpenSea collection record listing this exact contract address on Ethereum",
+      "openseaCollection": "swarm-pepe",
+      "openseaChain": "ethereum",
+      "sourceIds": [
+        "market-opensea"
+      ]
+    }
   },
   {
     "id": "tokenworks",
@@ -154,6 +174,7 @@
       "Token",
       "Strategy"
     ],
+    "color": "#c0f879",
     "description": "A TokenWorks strategy designed to acquire Identity MD NFTs with trading fees, resell them and buy back its own token.",
     "descriptionSourceIds": [
       "tw-nft",
@@ -310,6 +331,13 @@
         "note": "HTTP 403; bytecode, creator and privileges not independently checked."
       },
       {
+        "id": "market-dexscreener",
+        "title": "DexScreener · IMDSTR pairs on Ethereum",
+        "url": "https://dexscreener.com/ethereum/0x80271ce20184e38f4afe90d4ca134304d197aca2",
+        "type": "DEX aggregator · third-party",
+        "note": "Price, fully diluted market cap, 24h DEX volume and 24h change, matched by contract address. Aggregator figures are third-party claims about on-chain trading, not verification of the contract."
+      },
+      {
         "id": "imd-site",
         "title": "Identity MD website",
         "url": "https://imd.fun/",
@@ -324,7 +352,18 @@
         "note": "Documentation searched for the four names. No explicit official relationship found. This is a bounded review, not proof that no statement exists elsewhere."
       }
     ],
-    "lastReviewed": "2026-09-28"
+    "lastReviewed": "2026-09-29",
+    "market": {
+      "kind": "token",
+      "chain": "Ethereum",
+      "chainId": 1,
+      "contractAddress": "0x80271ce20184e38f4afe90d4ca134304d197aca2",
+      "identifiedBy": "DexScreener pairs whose base token is this contract on Ethereum",
+      "dexscreenerChain": "ethereum",
+      "sourceIds": [
+        "market-dexscreener"
+      ]
+    }
   },
   {
     "id": "project-hive",
@@ -334,6 +373,7 @@
       "App",
       "Token"
     ],
+    "color": "#f1c27c",
     "description": "Claims to use trading fees to buy and run Identity MD agent seats, then distribute earned IMD to stakers. Key claims remain unverified.",
     "descriptionSourceIds": [
       "hive-home"
@@ -518,6 +558,13 @@
         "note": "Report dated 28 September 2026. Treat classification and domain age as automated/third-party signals, not proven fraud."
       },
       {
+        "id": "market-dexscreener",
+        "title": "DexScreener · HIVE pairs on Robinhood Chain",
+        "url": "https://dexscreener.com/robinhood/0xcdae63d95d6dd4f89f6e508c77bd4388b4e5c8ab",
+        "type": "DEX aggregator · third-party",
+        "note": "Price, fully diluted market cap, 24h DEX volume and 24h change for the project-reported token address. Market activity does not resolve the custody and affiliation questions above."
+      },
+      {
         "id": "imd-site",
         "title": "Identity MD website",
         "url": "https://imd.fun/",
@@ -532,7 +579,18 @@
         "note": "Documentation searched for the four names. No explicit official relationship found. This is a bounded review, not proof that no statement exists elsewhere."
       }
     ],
-    "lastReviewed": "2026-09-28"
+    "lastReviewed": "2026-09-29",
+    "market": {
+      "kind": "token",
+      "chain": "Robinhood Chain",
+      "chainId": 4663,
+      "contractAddress": "0xCdaE63D95D6dd4f89f6e508c77bD4388b4e5C8Ab",
+      "identifiedBy": "DexScreener pairs whose base token is this contract on Robinhood Chain",
+      "dexscreenerChain": "robinhood",
+      "sourceIds": [
+        "market-dexscreener"
+      ]
+    }
   },
   {
     "id": "nosh",
@@ -542,6 +600,7 @@
       "Token",
       "Strategy"
     ],
+    "color": "#8ec5e8",
     "description": "A Nosh token whose creator fees are routed toward Identity MD NFT purchases and holder raffles, with external keeper involvement.",
     "descriptionSourceIds": [
       "nosh-page",
@@ -731,6 +790,13 @@
         "note": "Included for independent follow-up; this review did not validate the transaction receipt."
       },
       {
+        "id": "market-dexscreener",
+        "title": "DexScreener · IMDSTRTGY pairs on Robinhood Chain",
+        "url": "https://dexscreener.com/robinhood/0xe749c8bf545da0db1aa6664c63c072c96f25aca1",
+        "type": "DEX aggregator · third-party",
+        "note": "Price, fully diluted market cap, 24h DEX volume and 24h change, matched by contract address. A same-named IMDSTRTGY token on BNB Chain at a different address is not this listing and is excluded."
+      },
+      {
         "id": "imd-site",
         "title": "Identity MD website",
         "url": "https://imd.fun/",
@@ -745,6 +811,17 @@
         "note": "Documentation searched for the four names. No explicit official relationship found. This is a bounded review, not proof that no statement exists elsewhere."
       }
     ],
-    "lastReviewed": "2026-09-28"
+    "lastReviewed": "2026-09-29",
+    "market": {
+      "kind": "token",
+      "chain": "Robinhood Chain",
+      "chainId": 4663,
+      "contractAddress": "0xE749C8Bf545DA0db1aA6664c63c072c96f25acA1",
+      "identifiedBy": "DexScreener pairs whose base token is this contract on Robinhood Chain",
+      "dexscreenerChain": "robinhood",
+      "sourceIds": [
+        "market-dexscreener"
+      ]
+    }
   }
 ]
